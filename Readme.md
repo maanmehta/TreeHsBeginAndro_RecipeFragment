@@ -39,7 +39,7 @@ This will create the new `work` branch and switch your Android Studio to this ne
 <br>
 <br>
 
-In the background, Git has created a new `work` branch using the code snapshot from the `master` branch and automatically checks out the new `work` branch ready fr you to start suing the new work branch
+In the background, Git has created a new `work` branch using the code snapshot from the `master` branch and automatically checks out the new `work` branch ready for you to start using the new work branch
 
 # 2 Make code changes on `work` branch, commit your changes and push your commits to the (Github) server
 
@@ -84,4 +84,5 @@ When you want to merge your code changes from branch B to branch A, you have to 
     - Now `Push` your merge to the Github server
 
 
+# 5. Delete your `work` branch
 
