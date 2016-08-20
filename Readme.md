@@ -80,6 +80,8 @@ When you want to merge your code changes from branch B to branch A, you have to 
     - Now execute merge of `work` branch to the `master` branch as follows - From the status bar, click on **Git:master** which is your current branch in Android Studio, and select **work -> origin/work** and click **Merge**<br><br>
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/merge01.png)<br><br>
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/mergedWorkToMaster01.png)<br><br>
+    - At this point, even though it seems that your merge has been completed, but it has only been completed on your local computer and has not been pushed to the (Github) server. You can verify this by checking on the Github website and you will notice that indeed the changes from the `work` branch have not been reflected on the `master` branch on the server.
+    - Now `Push` your merge to the Github server
 
 
 
