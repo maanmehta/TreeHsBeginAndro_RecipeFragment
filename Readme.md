@@ -25,9 +25,13 @@ This tutorial gives step-by-step instructions on how to create a new `work` bran
 
 ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/newbranch02.png)
 
+
+
 This will create the new `work` branch and switch your Android Studio to this new branch as you can see in the screenshot below:
 
+
 ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/newbranch03.png)
+
 
 In the background, Git has created a new `work` branch using the code snapshot from the `master` branch and automatically checks out the new `work` branch ready fr you to start suing the new work branch
 
