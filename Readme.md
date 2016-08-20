@@ -44,10 +44,10 @@ In the background, Git has created a new `work` branch using the code snapshot f
 After the **Push**, you can browse the codebase of the new `work` branch on the Github website as follows:
 - Logon to Github website
 - Browse to your repository.
-    - Your repository dashboard on Github website will show the number of branches in your repository and in this case and as shown in the screenshot below it should be **2 Branches**
-    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/2Branches.png)
-    - Click on **2 Branches** and then click **All Branches** to view your branches
-    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/allBranches.png)
+    - Your repository dashboard on Github website will show the number of branches in your repository and in this case and as shown in the screenshot below it should be **2 Branches**<br>
+    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/2Branches.png)<br>
+    - Click on **2 Branches** and then click **All Branches** to view your branches<br>
+    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/allBranches.png)<br>
 
 # 2 Make code changes on `work` branch, commit your changes and push your commits to the (Github) server
 
