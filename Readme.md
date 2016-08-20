@@ -94,3 +94,12 @@ When you want to merge your code changes from branch B to branch A, you have to 
 
 # 5. Delete your `work` branch
 
+Usually once a working branch is merged with the `master` branch, its purpose is done and we should delete it. That is why, the confirmation message after a successful merge, as shown in the screenshot below, gives user an option to delete the `work` branch that was just merged with the `master`. Following are some of the ways, you can delete a branch:
+- Android Studio
+    - Click on `Delete work` link in the confirmation message above
+    - From the status bar, click on **Git:master** which is your current branch in Android Studio, and select **work -> origin/work** and click **Delete**<br><br>
+    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/deleteWork.png)<br><br>
+    - And as always, we need to commit and **Push** all our local changes to the (Github) server, so the `work` branch gets deleted from the Github server as well
+- Github website - Browse to your repository on Githb website and select the appropriate branch to delete
+- Git commandline
+
