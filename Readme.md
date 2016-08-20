@@ -75,7 +75,6 @@ Now, while you are using the `work` branch, make some code changes and commit an
 When you want to merge your code changes from branch B to branch A, you have to switch (checkout) to branch A and then execute the merge command and select Branch B. Git will then marge the current codebase of the Branch B to Branch A. And now, the codebase of branches A and B will be same. Keep in mind, at this point, all of this merge has been done to your branches A and B that are local to your computer and has not been pushed tot he (Github) server. Therefore, you will need to execute a Push from your local computer (e.g. your Android Studio). Here are the steps that you can execute to merge ll the commits you have made on your `work` branch to the `master` branch:
 
 - Switch your branches on the Github website and you will notice the differences in the code base between the `work` and the `master` branch.
-- You can do the same on Android Studio as follows
+- You can do the same on Android Studio as follows:
     - Switch your active branch on Android Studio back to `master` - From the status bar, click on **Git:work** which is your current branch in Android Studio, and select **master -> origin/master** and click **Checkout**
-    -
 
