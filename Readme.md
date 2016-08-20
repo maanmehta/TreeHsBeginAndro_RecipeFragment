@@ -110,3 +110,5 @@ Following are some of the ways, you can delete a branch:
 
 - Github website - Browse to your repository on Github website and select the appropriate remote branch to delete
 
+something
+
