@@ -65,8 +65,10 @@ Now, while you are using the `work` branch, make some code changes and commit an
 - You can do the same on Android Studio as follows
     - Switch your active branch on Android Studio back to `master` - From the status bar, click on **Git:work** which is your current branch in Android Studio, and select **master -> origin/master** and click **Checkout**. You can now verify that the code base in Android Studio shows your code that was in `master` branch and does not have the changes you made and commited to the `work` branch.<br><br>
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/checkoutMaster01.png)<br><br>
+    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/checkedoutMaster01.png)<br><br>
     - Now, switch back to the `work` branch on Android Studio - From the status bar, click on **Git:master** which is your current branch in Android Studio, and select **work -> origin/work** and click **Checkout**. You can now verify that the code base in Android Studio shows your code that is in the `work` branch and has all the changes you made and commited to the `work` branch.<br><br>
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/checkoutWork01.png)<br><br>
+    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/checkedoutWork01.png)<br><br>
 
 # 4. Merge your `work` branch to `master` branch and push your changes (the merge) to the server
 
