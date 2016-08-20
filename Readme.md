@@ -94,7 +94,7 @@ When you want to merge your code changes from branch B to branch A, you have to 
 
 # 5. Delete your `work` branch
 
-Usually once a working branch is merged with the `master` branch, its purpose is done and we should delete it. That is why, the confirmation message after a successful merge, as shown in the screenshot below, gives user an option to delete the `work` branch that was just merged with the `master`. <br><br>
+Usually once a working branch is merged with the `master` branch, its purpose is done and we should delete it. That is why, the confirmation message after a successful merge, as shown in the screenshot below, gives user an option to delete the `work` branch that was just merged with the `master`. <br>
 ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/mergedWorkToMaster01.png)<br><br>
 
 Following are some of the ways, you can delete a branch:
