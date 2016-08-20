@@ -39,7 +39,15 @@ This will create the new `work` branch and switch your Android Studio to this ne
 <br>
 <br>
 
-In the background, Git has created a new `work` branch using the code snapshot from the `master` branch and automatically checks out the new `work` branch ready for you to start using the new work branch
+In the background, Git has created a new `work` branch using the code snapshot from the `master` branch and automatically checks out the new `work` branch ready for you to start using the new work branch. But before we do that, we need to commit and **Push** our local changes to the server. At this point, our new `work` branch has been created but it is still on the local computer and we will need to execute **Push** for the changes (new work branch) to be replicated to the (Github) server.
+
+After the **Push**, you can browse the codebase of the new `work` branch on the Github website as follows:
+- Logon to Github website
+- Browse to your repository.
+    - Your repository dashboard on Github website will show the number of branches in your repository and in this case and as shown in the screenshot below it should be **2 Branches**
+    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/2Branches.png)
+    - Click on **2 Branches** and then click **All Branches** to view your branches
+    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/allBranches.png)
 
 # 2 Make code changes on `work` branch, commit your changes and push your commits to the (Github) server
 
