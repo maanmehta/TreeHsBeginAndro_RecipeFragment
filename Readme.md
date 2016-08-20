@@ -63,7 +63,12 @@ Now, while you are using the `work` branch, make some code changes and commit an
 
 - Switch your branches on the Github website and you will notice the differences int he code base between the `work` and the `master` branch.
 - You can do the same on Android Studio as follows
-    - Switch your active branch on Android Studio back to `master` -
+    - Switch your active branch on Android Studio back to `master` - From the status bar, click on **Git:work** which is your current branch in Android Studio, and select **master -> origin/master** and click **Checkout**
+
+<br>
+<br>
+
+![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/checkoutMaster01.png)
 
 
 -
