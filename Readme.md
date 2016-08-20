@@ -39,7 +39,7 @@ This will create the new `work` branch and switch your Android Studio to this ne
 <br>
 <br>
 
-In the background, Git has created a new `work` branch using the code snapshot from the `master` branch and automatically checks out the new `work` branch ready for you to start using the new work branch. But before we do that, we need to commit and **Push** our local changes to the server. At this point, our new `work` branch has been created but it is still on the local computer and we will need to execute **Push** for the changes (new work branch) to be replicated to the (Github) server.
+In the background, Git has created a new `work` branch using the code snapshot from the `master` branch and automatically checks out the new `work` branch ready for you to start using the new work branch. But before we do that, we need to Commit and **Push** our local changes to the server. At this point, our new `work` branch has been created but it is still on the local computer and we will need to execute **Push** for the changes (new work branch) to be replicated to the (Github) server.
 
 After the **Push**, you can browse the codebase of the new `work` branch on the Github website as follows:
 - Logon to Github website
@@ -51,11 +51,11 @@ After the **Push**, you can browse the codebase of the new `work` branch on the 
 
 # 2 Make code changes on `work` branch, commit your changes and push your commits to the (Github) server
 
-Now, while you are using the `work` branch, make some code changes and commit and push to the (Github) server. Note that unless you *Push*, your changes you made and commited will not be copied (pushed) to the (Github) server.
+Now, while you are using the `work` branch, make some code changes and Commit and **Push** to the (Github) server. Note that unless you *Push*, your changes you made and commited will not be copied (pushed) to the (Github) server.
 
 ### Verify that your changes have been pushed to the `work` branch on the Github server
 
-- Login to Github website and browse to your repository and you will find that your new code changes are not there in the default `master` branch. This is correct because we made changes and did a commit and Push but we did this in the `work` branch. So, these changes should not be in the `master` branch but actually in the `work` branch.
+- Login to Github website and browse to your repository and you will find that your new code changes are not there in the default `master` branch. This is correct because we made changes and did a Commit and **Push** but we did this in the `work` branch. So, these changes should not be in the `master` branch but actually in the `work` branch.
 - Switch to the new `work` branch on the Github website and viola, your changes are there.
 
 <br>
@@ -94,12 +94,15 @@ When you want to merge your code changes from branch B to branch A, you have to 
 
 # 5. Delete your `work` branch
 
-Usually once a working branch is merged with the `master` branch, its purpose is done and we should delete it. That is why, the confirmation message after a successful merge, as shown in the screenshot below, gives user an option to delete the `work` branch that was just merged with the `master`. Following are some of the ways, you can delete a branch:
+Usually once a working branch is merged with the `master` branch, its purpose is done and we should delete it. That is why, the confirmation message after a successful merge, as shown in the screenshot below, gives user an option to delete the `work` branch that was just merged with the `master`. <br><br>
+![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/mergedWorkToMaster01.png)<br><br>
+
+Following are some of the ways, you can delete a branch:
 - Android Studio
     - Click on `Delete work` link in the confirmation message above
     - From the status bar, click on **Git:master** which is your current branch in Android Studio, and select **work -> origin/work** and click **Delete**<br><br>
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/deleteWork.png)<br><br>
-    - And as always, we need to commit and **Push** all our local changes to the (Github) server, so the `work` branch gets deleted from the Github server as well
+    - And as always, we need to Commit and **Push** all our local changes to the (Github) server, so the `work` branch gets deleted from the Github server as well
 - Github website - Browse to your repository on Githb website and select the appropriate branch to delete
 - Git commandline
 
