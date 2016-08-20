@@ -41,7 +41,7 @@ This will create a new local `work` branch and switch your Android Studio to thi
 <br>
 <br>
 
-In the background, Android Studio has used Git to created a new local `work` branch using the code snapshot from the `master` branch and automatically checks out the new local `work` branch ready for you to start making code changes on this new local `work` branch.
+In the background, Android Studio has used Git to created a new local `work` branch using the code snapshot from the `master` branch and automatically checks out the new local `work` branch ready for you to start making code changes in Android Studio.
 
 But, this new branch does not yet exist on the remote Github server. In other words, we now have a Local Branch called `work` but there is no "Remote Branch" called `work` yet. In order to do that, we need to Commit and **Push** our local changes to the server. Execute **Commit and Push** for the changes (new work branch) to be replicated to the (Github) server.
 
