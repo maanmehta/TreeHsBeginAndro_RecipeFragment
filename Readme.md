@@ -1,17 +1,17 @@
 # Basic GitHub Branch Management
-## How to create and merge branches using Android Studio and Github and Git command line
+## How to create and merge Github branches using Android Studio
 
 ### About this tutorial
 
-This tutorial gives step-by-step instructions on how to create a new `work` branch from the `master` branch, make your code changes and commit to the `work` branch
+This tutorial gives step-by-step instructions on how to do basic Github branch management from Android Studio. I will cover the following topics:
 
 1. Create a new `work` branch from `master` branch
-2. Make code changes on `work` branch, commit your changes and push your commits to the (Github) server
-3. Change (checkout) your branches between `work` and `master` and see that you get different code
-4. Merge your `work` branch to `master` branch and push your changes (the merge) to the server
+2. Make code changes on `work` branch, commit and push your commits to the Github server
+3. Switch between your branches and see that you get different codebase in Android Studio
+4. Merge your `work` branch to `master` branch and push your changes (the merge) to the Github server
 5. Delete your `work` branch
 
-# 1 Create a new `work` branch from `master` branch
+# 1. Create a new `work` branch from `master` branch
 
 ## Android Studio
 
@@ -53,7 +53,7 @@ After the **Push**, you can browse the codebase of the new `work` branch on the 
     - Click on **2 Branches** and then click **All Branches** to view your branches<br><br>
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/allBranches.png)<br><br>
 
-# 2 Make code changes on `work` branch, commit your changes and push your commits to the (Github) server
+# 2. Make code changes on `work` branch, commit your changes and push your commits to the (Github) server
 
 Now, while you are using the `work` branch, make some code changes and Commit and **Push** to the (Github) server. Note that unless you *Push*, your changes you made and commited will not be copied (pushed) to the (Github) server.
 
@@ -71,7 +71,7 @@ Now, while you are using the `work` branch, make some code changes and Commit an
 <br>
 
 
-# 3. Change (checkout) your branches between `work` and `master` and see that you get different code
+# 3. Switch between your branches and see that you get different codebase in Android Studio
 
 - Switch your branches on the Github website and you will notice the differences int he code base between the `work` and the `master` branch.
 - You can do the same on Android Studio as follows
@@ -92,13 +92,12 @@ When you want to merge your code changes from branch B to branch A, you have to 
     - Now execute merge of `work` branch to the `master` branch as follows - From the status bar, click on **Git:master** which is your current branch in Android Studio, and select **work -> origin/work** and click **Merge**<br><br>
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/merge01.png)<br><br>
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/mergedWorkToMaster01.png)<br><br>
-    - At this point, even though it seems that your merge has been completed, but it has only been completed on your local computer and has not been pushed to the (Github) server. You can verify this by checking on the Github website and you will notice that indeed the changes from the `work` branch have not been reflected on the `master` branch on the server.
-    - Now `Push` your merge to the Github server
+    - At this point, even though it seems that your merge has been completed, but it has only been completed on your local branches and has not been pushed to the remote branches on the Github server. You can verify this by checking on the Github website and you will notice that indeed the changes from the `work` branch have not been reflected on the remote `master` branch on the server.
+    - Execute `Push` to merge your changes to the Github server
 
+# 5. Delete `work` branch
 
-# 5. Delete your `work` branch
-
-Usually once a working branch is merged with the `master` branch, its purpose is done and we should delete it. One thing we need to be concious about is that we need to delete the "remote" branch on the Github server and not just the local branch on your local computer.
+Usually once a working branch is merged with the `master` branch, its purpose is done and we should delete it. One thing we need to be conscious about is that we need to delete the "remote" branch on the Github server and not just the local branch on your local computer.
 
 Following are some of the ways, you can delete a branch:
 - Android Studio
@@ -107,6 +106,5 @@ Following are some of the ways, you can delete a branch:
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/deleteWorkRemote.png)<br><br>
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/remoteWorkBranchDeleted.png)<br><br>
 
-- Github website - Browse to your repository on Github website and select the appropriate branch to delete
-- Git command line
+- Github website - Browse to your repository on Github website and select the appropriate remote branch to delete
 
