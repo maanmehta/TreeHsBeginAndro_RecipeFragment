@@ -102,10 +102,11 @@ Usually once a working branch is merged with the `master` branch, its purpose is
 
 Following are some of the ways, you can delete a branch:
 - Android Studio
-    - Click on `Delete work` link in the confirmation message above
-    - From the status bar, click on **Git:master** which is your current branch in Android Studio, and select **work -> origin/work** and click **Delete**<br><br>
-    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/deleteWork.png)<br><br>
-    - And as always, we need to Commit and **Push** all our local changes to the (Github) server, so the `work` branch gets deleted from the Github server as well
-- Github website - Browse to your repository on Githb website and select the appropriate branch to delete
+    - Click on `Delete work` link in the confirmation message above. **Warning** - This wil delete the "local" `work` branch and not the "remote" `work` branch on the Github server.
+    - It is better at this point to delete the remote `work` branch directly at this point. From the status bar, click on **Git:master** which is your current branch in Android Studio, and then under the **Remote Branches**, select **origin/work** and click **Delete**. This is delete the remote `work` branch fromt he Github server and, therefore, you will not need to execute Commit and Push this time.<br><br>
+    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/deleteWorkRemote.png)<br><br>
+    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/remoteWorkBranchDeleted.png)<br><br>
+
+- Github website - Browse to your repository on Github website and select the appropriate branch to delete
 - Git command line
 
