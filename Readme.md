@@ -29,7 +29,7 @@ This tutorial gives step-by-step instructions on how to create a new `work` bran
 <br>
 <br>
 
-This will create the new `work` branch and switch your Android Studio to this new branch as you can see in the screenshot below:
+This will create a new local `work` branch and switch your Android Studio to this new local branch as you can see in the screenshot below:
 
 <br>
 <br>
@@ -39,7 +39,9 @@ This will create the new `work` branch and switch your Android Studio to this ne
 <br>
 <br>
 
-In the background, Git has created a new `work` branch using the code snapshot from the `master` branch and automatically checks out the new `work` branch ready for you to start using the new work branch. But before we do that, we need to Commit and **Push** our local changes to the server. At this point, our new `work` branch has been created but it is still on the local computer and we will need to execute **Push** for the changes (new work branch) to be replicated to the (Github) server.
+In the background, Android Studio has used Git to created a new local `work` branch using the code snapshot from the `master` branch and automatically checks out the new local `work` branch ready for you to start making code changes on this new local `work` branch.
+
+But, this new branch does not yet exist on the remote Github server. In other words, we now have a Local Branch called `work` but there is no "Remote Branch" called `work` yet. In order to do that, we need to Commit and **Push** our local changes to the server. Execute **Commit and Push** for the changes (new work branch) to be replicated to the (Github) server.
 
 ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/pushedNewWorkBranch.png)
 
