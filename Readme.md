@@ -104,5 +104,5 @@ Following are some of the ways, you can delete a branch:
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/deleteWork.png)<br><br>
     - And as always, we need to Commit and **Push** all our local changes to the (Github) server, so the `work` branch gets deleted from the Github server as well
 - Github website - Browse to your repository on Githb website and select the appropriate branch to delete
-- Git commandline
+- Git command line
 
