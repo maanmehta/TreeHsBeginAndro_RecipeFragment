@@ -41,6 +41,8 @@ This will create the new `work` branch and switch your Android Studio to this ne
 
 In the background, Git has created a new `work` branch using the code snapshot from the `master` branch and automatically checks out the new `work` branch ready for you to start using the new work branch. But before we do that, we need to Commit and **Push** our local changes to the server. At this point, our new `work` branch has been created but it is still on the local computer and we will need to execute **Push** for the changes (new work branch) to be replicated to the (Github) server.
 
+![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/pushedNewWorkBranch.png)
+
 After the **Push**, you can browse the codebase of the new `work` branch on the Github website as follows:
 - Logon to Github website
 - Browse to your repository.
