@@ -3,6 +3,8 @@
 
 ### About this tutorial
 
+It is an established best practice not to directly make code changes on the master branch. This holds true, even if you are the only developer working on the project. When you want to make some code changes, you should create a new "work" branch from your `master` branch, make your code changes to the new `work` branch, complete your testing and when you are done, merge changes in your `work` branch to the `master` branch and now you can safely delete your work branch.
+
 This tutorial gives step-by-step instructions on how to do basic Github branch management from Android Studio. I will cover the following topics:
 
 1. Create a new `work` branch from `master` branch
