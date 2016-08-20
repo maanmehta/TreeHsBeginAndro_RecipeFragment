@@ -9,9 +9,7 @@ This tutorial gives step-by-step instructions on how to create a new `work` bran
 2. Make code changes on `work` branch, commit your changes and push your commits to the (Github) server
 3. Change (checkout) your branches between `work` and `master` and see that you get different code
 4. Merge your `work` branch to `master` branch and push your changes (the merge) to the server
-5. Make more changes to on `work` branch, commit your changes and push your commits to the (Github) server
-6. Merge again
-7. Delete your `work` branch
+5. Delete your `work` branch
 
 # 1 Create a new `work` branch from `master` branch
 
@@ -43,7 +41,7 @@ This will create the new `work` branch and switch your Android Studio to this ne
 
 In the background, Git has created a new `work` branch using the code snapshot from the `master` branch and automatically checks out the new `work` branch ready fr you to start suing the new work branch
 
-# 1 Make code changes on `work` branch, commit your changes and push your commits to the (Github) server
+# 2 Make code changes on `work` branch, commit your changes and push your commits to the (Github) server
 
 Now, while you are using the `work` branch, make some code changes and commit and push to the (Github) server. Note that unless you *Push*, your changes you made and commited will not be copied (pushed) to the (Github) server.
 
@@ -57,7 +55,15 @@ Now, while you are using the `work` branch, make some code changes and commit an
 
 ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/switchToWork01.png)
 
+<br>
+<br>
 
+
+3. Change (checkout) your branches between `work` and `master` and see that you get different code
+
+- Switch your branches on the Github website and you will notice the differences int he code base between the `work` and the `master` branch.
+- You can do the same on Android Studio as follows
+    - Switch your active branch on Android Studio back to `master` -
 
 
 -
