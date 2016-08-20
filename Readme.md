@@ -79,6 +79,7 @@ When you want to merge your code changes from branch B to branch A, you have to 
     - Switch your active branch on Android Studio back to `master` - From the status bar, click on **Git:work** which is your current branch in Android Studio, and select **master -> origin/master** and click **Checkout**
     - Now execute merge of `work` branch to the `master` branch as follows - From the status bar, click on **Git:master** which is your current branch in Android Studio, and select **work -> origin/work** and click **Merge**<br><br>
     ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/merge01.png)<br><br>
+    ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/mergedWorkToMaster01.png)<br><br>
 
 
 
