@@ -11,7 +11,7 @@ This tutorial gives step-by-step instructions on how to do basic Github branch m
 2. Make code changes on `work` branch, commit and push your commits to the Github server
 3. Switch between your branches and see that you get different codebase in Android Studio
 4. Merge your `work` branch to `master` branch and push your changes (the merge) to the Github server
-5. Delete your `work` branch
+5. Delete your both `work` branches - local and remote
 
 # 1. Create a new `work` branch from `master` branch
 
