@@ -104,7 +104,7 @@ Usually once a working branch is merged with the `master` branch and changes pus
     - Either click on **Delete work** link in the *merge* confirmation message<br>
         ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/mergedWorkToMaster01.png)<br><br>
 
-    - OR, from the status bar, click on **Git:master** which is your current branch in Android Studio, and then under the **Local Branches**, select **work -> origin/work** and click **Delete**. This will delete the "local" `work` branch only and not the "remote" `work` branch on the Github server<br>
+    - OR, from the status bar, click on **Git:master** which is your current branch in Android Studio, and then under the **Local Branches**, select **work -> origin/work** and click **Delete**. This will delete the "local" `work` branch only and not the "remote" `work` branch on the Github server<br><br>
         ![Current Weather](https://raw.githubusercontent.com/maanmehta/screenshots/master/branches/deleteLocalWork.png)<br><br>
 
 - Delete the remote `work` branch as follows:
